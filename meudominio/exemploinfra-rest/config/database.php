@@ -2,8 +2,8 @@
 class Database {
 private $host = "localhost";
 private $database_name = "exemploinfra";
-private $username = "root";
-private $password = "";
+private $username = "alunoinfra";
+private $password = "Aluno123#@";
 public $conn;
 public function getConnection(){
 $this->conn = null;
