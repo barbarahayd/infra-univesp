@@ -15,7 +15,7 @@ $this->conn = $db;
 public function getPecas(){
 $sqlQuery = "SELECT item_id, conteudo FROM " . $this->db_table . "";
 $stmt = $this->conn->prepare($sqlQuery);
-$stmt→execute();
+$stmt->execute();
 return $stmt;
 }
 // Cria uma peca
