@@ -6,8 +6,8 @@ header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 ini_set('display_errors', 1); 
-error_reporting(E_ALL);
-s 
+error_reporting(E_ALL); 
+
 include_once '../config/database.php';
 include_once '../classe/pecas.php';	
 
